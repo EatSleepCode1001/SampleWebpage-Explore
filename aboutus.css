@@ -1,0 +1,19 @@
+body{ 
+    background-color: aquamarine;
+    font-display: swap;
+    text-align: start;
+}
+#p3{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p1,#p2{
+    
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Calibri', sans-serif;
+}
+

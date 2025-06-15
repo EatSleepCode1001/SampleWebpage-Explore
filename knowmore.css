@@ -1,0 +1,10 @@
+body{
+    background-color: cornflowerblue;
+}
+#p1,#p2{
+    font-size: x-large
+}
+ #instruments1,#instruments2, #artists1 ,#artists2{ 
+    font-size: 25px;
+    margin-left: 20px;
+ }

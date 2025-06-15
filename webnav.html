@@ -1,0 +1,49 @@
+<html>
+    <head>
+      <title>Testpage</title>
+      <link rel="stylesheet" href="sapasa.css"/>
+      
+      <link rel="stylesheet" href="aboutus.css"/>
+
+
+
+<script>
+    const musicToggle = document.getElementById('musicToggle');
+    const bgMusic = document.getElementById('bgMusic');
+    let isPlaying = false;
+
+    musicToggle.addEventListener('click', () => {
+        if (isPlaying) {
+            bgMusic.pause();
+            musicToggle.textContent = 'Play Music';
+        } else {
+            bgMusic.play();
+            musicToggle.textContent = 'Pause Music';
+        }
+        isPlaying = !isPlaying;
+    });
+</script>
+
+</head>
+    <body>
+        <nav>
+            <label id="logo"><b>Musically</b></label>
+
+            <ul>
+                <li> <a href="knowmore.html">Know More</a></li>
+                <li> <a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1> Welcome to our webpage heartily, Musically🎸</h1> <br>
+
+        <p id="p1"> In this webpage, we explore various aspects of Music </p>
+        <p id="p2"> Click <b>"Know More"</b> to explore the most popular musical forms, instruments, and artists from India. </p>
+
+            <button id="musicToggle">Play Music</button>
+
+            <audio id="bgMusic" loop>
+            <source src="Flute.mp3" type="audio/mpeg">
+            </audio>
+
+    </body>
+</html>
